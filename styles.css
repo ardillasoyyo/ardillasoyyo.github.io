@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 48, 178);
+    font-family: 'Crimson Text', serif;
+    font-size: larger;
+}
+
+
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient( rgb(240, 199, 66), rgb(194, 186, 78));
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+#sections{
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(30deg, rgb(241, 239, 74), rgb(247, 93, 93));
+    margin-top: -20px;
+}
+#re{
+padding-top: 40px;
+}
+
+p{
+    text-align: center;
+    margin-left: 20px;
+}
+#sections h1{
+    padding-top: 50px;
+    text-align: center;
+}
+#container{
+    margin-top: -30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-tile{
+    width: auto;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+    overflow: hidden;
+}
+.project-tile:hover{
+    transition: 0.5s;
+    border-color: rgb(214, 175, 48);
+    border-width:5px;
+    margin-left:45px;
+    margin-right: 25px;
+}
+.project-tile span{
+    transition: 0.7s;
+}
+.project-tile:hover span{
+    color: aqua;
+}
+.project-tile a{
+    text-decoration: none;
+    color: black;
+}
+.project-tile img{
+    display: flex;
+    width:220px;
+    height: 220px;
+    border-radius: 20px;
+}
+.project-tile p{
+    text-align: center;
+    font-size:smaller;
+}
+
+#when-we-met{
+    padding-top: 20px;
+    background-image: linear-gradient(50deg, rgb(143, 219, 207), rgb(106, 98, 226));
+    width: 100%;
+    height: 120vh;
+    margin-top: -20px;
+}
+#img--container{
+    display: flex;
+    justify-content: center;
+}
+#abyss{
+    width: 300px;
+    border-radius: 100%;
+}
+#Your-first-steps-in-coding{
+    padding-top: 20px;
+    margin-top: -20px;
+    background-image:url("https://res.cloudinary.com/practicaldev/image/fetch/s---1w4VnJR--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/n9b2p3j0h1mdqvms3ogc.gif");
+    width: 100%;
+    height: 120vh;
+}
+#mind{
+    padding-top: 80px;
+    border-radius: 50%;
+}
+#Your-first-steps-in-coding h1{
+    color: white;
+}
+#Your-first-steps-in-coding p{
+    color: white;
+}
+#What-we-played{
+    padding-top: 20px;
+    background-image: linear-gradient(90deg, rgb(219, 143, 209), rgb(243, 241, 118));
+    margin-top: -20px;
+    width: 100%;
+    height: 120vh;
+}
+#warhammer-photo{
+    padding-top: 70px;
+    width: 600px;
+    border-radius: 20%;
+}
+#world-cup{
+    padding-top: 20px;
+    background-image: linear-gradient(120deg, rgb(47, 233, 240), rgb(248, 248, 240));
+    margin-top: -20px;
+    width: 100%;
+    height: 120vh;
+}
+#messi{
+    padding-top: 60px;
+    border-radius: 20px;
+}
+#English-class{
+    padding-top: 20px;
+    background-image: linear-gradient(20deg, rgb(241, 108, 108), rgb(130, 124, 219));
+    margin-top: -20px;
+    width: 100%;
+    height: 120vh;
+}
+#learn{
+    width: 300px;
+}
+#proteccion{
+    padding-top: 40%;
+    background-image: linear-gradient(120deg, rgb(248, 43, 197), rgb(184, 231, 73));
+    margin-top: -20px;
+    width: 100%;
+    height: 100vh;
+}
+#end-section{
+    background-image: radial-gradient(rgb(194, 190, 190),rgb(131, 131, 236));
+    width: 100%;
+    height: 50vh;
+    margin-top: -40px;
+}
+
+#hand-us{
+    width:220px;
+    height: 220px;
+}
+
+#final-lemon{
+    font-size: 40px;
+}
+#ending{
+    background-image: linear-gradient(100deg, rgb(148, 233, 78), rgb(241, 199, 59));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ending a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+
